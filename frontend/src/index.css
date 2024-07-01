@@ -1,0 +1,74 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.swiper-slide {
+  height: auto !important;
+}
+
+.no-scroll {
+  overflow: hidden;
+}
+
+#reader {
+  border: 0px !important;
+}
+
+#reader div img {
+  filter: invert(1);
+  margin: auto;
+}
+
+#reader div img[alt="Info icon"] {
+  visibility: hidden;
+}
+
+.Toastify__toast-container {
+  z-index: 100000 !important;
+}
+
+#html5-qrcode-button-camera-start,
+#html5-qrcode-button-camera-permission,
+#html5-qrcode-button-camera-stop {
+  padding: 0.7rem 1rem;
+  display: block;
+  width: fit-content;
+  border-radius: 10px;
+  margin: auto;
+  color: white;
+  background-color: #9d61e8;
+  text-align: center;
+}
+
+#reader__scan_region video {
+  height: auto !important;
+  aspect-ratio: 1 !important;
+}
+
+#reader__dashboard_section {
+  color: transparent;
+  text-decoration: none;
+}
+
+#html5-qrcode-select-camera,
+#html5-qrcode-input-range-zoom,
+#reader__header_message,
+#html5-qrcode-anchor-scan-type-change,
+#html5-qrcode-private-filescan-input {
+  visibility: hidden;
+}
+
+.absolute-container img {
+  mask-image: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(0, 0, 0, 0.4) 100%
+  );
+  -webkit-mask-image: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(0, 0, 0, 0.4) 100%
+  );
+  mask-size: 100% 100%; /* Adjust the height of gradient mask as needed */
+  -webkit-mask-size: 100% 100%;
+}
