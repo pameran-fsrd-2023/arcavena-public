@@ -1,0 +1,41 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "Backend pameran fsrd",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pameran-fsrd-2023/backend.git"
+  },
+  "keywords": [
+    "fsrd",
+    "express"
+  ],
+  "author": "yonatan-nyo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pameran-fsrd-2023/backend/issues"
+  },
+  "homepage": "https://github.com/pameran-fsrd-2023/backend#readme",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "express-rate-limit": "^7.2.0",
+    "google-auth-library": "^9.9.0",
+    "jimp": "^0.22.12",
+    "jsonwebtoken": "^9.0.2",
+    "mongodb": "^6.5.0",
+    "multer": "^1.4.5-lts.1",
+    "uuid": "^9.0.1",
+    "webp-converter": "^2.3.3"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}
